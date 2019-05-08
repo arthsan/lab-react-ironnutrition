@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bulma/css/bulma.css';
 import FoodBox from './components/FoodBox'
-import AddFood from './components/AddFood'
+// import AddFood from './components/AddFood'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <AddFood />
+        
         <FoodBox />
       </div>
     );
